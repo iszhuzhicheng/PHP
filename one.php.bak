@@ -1,0 +1,30 @@
+<!-- <?php
+	define(NAMBER, 100);
+	echo NAMBER;
+	// echo phpinfo();
+	$name=$Http_POST['tireplay'];//表单提交后经过php得到
+	echo $name;
+?>
+ -->
+<!--  <?php
+    //初始化素组
+	$number=array("李彦宏","马云","李炎恢");
+	echo $number[0];
+ ?>
+ -->
+ <!-- <?php 
+ 	//自定义键数组
+ 	$userNumber=array('baidu'=>'李炎恢','taobao'=>'马云','360'=>'周鸿祎','alibaba');
+ 	// for($i=0;$i<=3;$i++){
+ 	// 	echo $userNumber[$i]."<br/>";
+ 	// }
+ 	//print_r($userNumber);
+ 	//echo $userNumber["360"];
+ 	
+ ?> -->
+ <?php 
+ 	//创建一个数组 包含一个元素
+ 	$userAges=array("武器"=>"19");
+ 	//打印出其年龄
+ 	echo $userAges["武器"];
+ ?>
